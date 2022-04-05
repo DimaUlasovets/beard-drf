@@ -6,7 +6,8 @@ from rest_framework.response import Response
 from .models import User, ToDo, Post, Comment, Album, Photo
 
 # Create your views here.
-from .serializer import UserSerializer, ToDoSerializer, PostSerializer, CommentSerializer, AlbumSerializer, \
+from .serializer import UserSerializer, ToDoSerializer, \
+    PostSerializer, CommentSerializer, AlbumSerializer, \
     PhotoSerializer
 
 
