@@ -81,10 +81,15 @@ WSGI_APPLICATION = 'middle_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dd3oi1t8mrp9j0',
+        'HOST': 'ec2-52-3-60-53.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'femgotzfpfzmsv',
+        'PASSWORD': 'bca923989230aa2faac6402e50084bcdb7d253c69edd9b9eb7b5d2b765476646',
     }
 }
+
 
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
